@@ -1,0 +1,32 @@
+.barranavegacion{
+	height: 100px;
+	background-color: blue;
+}
+.barranavegacion>a{
+	margin-left: 5px;
+	margin-top: 25px;
+}
+.izquierda{
+	float: left;
+}
+.centrado {
+	position: relative;
+	left: 30%;
+	top:25px;
+}
+.derecha {
+	float: right;
+}
+.fila1{
+	height: 150px;
+}
+.fila1>div{
+	display: inline-block;
+}
+.columna1{
+	width: 29%;
+}
+.columna2{
+	width: 69%;
+	overflow: hidden;
+}
